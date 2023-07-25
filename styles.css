@@ -86,3 +86,29 @@
 body {
     background: rgb(255, 214, 209);
 }
+
+.text {
+    font-weight: 900;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.small {
+    font-size: 20px;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.confirm {
+    background: green;
+    color: rgb(255,255,255);
+}
+
+.cancel {
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
+}
