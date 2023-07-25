@@ -1,4 +1,4 @@
-div {
+.external {
     background-color: red;
     color: white;
     font-size: 32px;
@@ -6,10 +6,83 @@ div {
     font-weight: bold;
 }
 
-.method {
-    margin-bottom: 20px
+.bottom {
+    margin-bottom: 20px;
 }
 
-.one {
-    
+#odd {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: rgb(255,192,203)
+}
+
+.two {
+    color: blue;
+}
+
+#even {
+    font-size: 24px
+}
+
+.three {
+    font-size: 24px;
+}
+
+.four {
+    background-color: rgb(127,255,0);
+    font-weight: bold;
+}
+
+.space {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.no,
+.yes {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.no {
+    background-color: rgb(250, 250, 51);
+}
+
+.yes {
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255)
+}
+
+.picture.distorted {
+    width: 200px;
+}
+
+.avatar {
+    height: 200px;
+}
+
+.distorted {
+    height: 300px;
+}
+
+.pic.proportioned {
+    width: 300px;
+}
+
+.avat {
+    height: 300px;
+}
+
+.proportioned {
+    height: 250p
+}
+
+.papa .babi {
+    background-color: rgb(250, 250, 51);
+    color: 	rgb(233,150,122);
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+    background: rgb(255, 214, 209);
 }
