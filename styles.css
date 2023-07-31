@@ -116,7 +116,86 @@ body {
 .pirs {
     border: 2px solid blue;
     background-color: rgb(235,144,154);
-    height: 50px;
+    margin-left: 40px;
     width: 300px;
-    text-align: center; 
+    padding: 20px;
+}
+
+.sekon {
+    margin-left: 30px;
+    margin-top: 10px;
+    border: 2px solid purple;
+    background-color: lightblue;
+    width: 360px;
+}
+
+.tird {
+    margin-left: 240px;
+    margin-top: 30px;
+    border: 2px solid red;
+    background-color: lightyellow;
+    width: 110px;
+    padding: 20px;
+}
+
+.kard {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 178px;
+    background-color: white;
+    width: 400px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.am {
+    float:inline-start;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: lightblue;
+    width: 384px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.blah {
+    float:inline-start;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    background-color: lightblue;
+    width: 384px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.butt {
+    float:inline-start;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: lightblue;
+    width: 377px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 60px;
+    text-align: center;
+}
+
+.ton {
+    border-color: white;
+    padding: 8px;
 }
