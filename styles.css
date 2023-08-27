@@ -277,4 +277,45 @@ hr {
     font-weight: bold;
 }
 
+/*flex header 2*/
+
+.sekohede {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    color: rgb(168, 96, 230);
+}
+
+.hededese {
+    display: flex;
+    list-style: none;
+    gap:20px;
+    padding: 10px;
+    text-align: center;
+    width: 350px;
+    height: 50px;
+    align-items: center;
+}
+
+
+.sekonlogo {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.seklin {
+
+}
+
+.noti {
+    background-color: rgb(168, 96, 230);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding:5px 15px 5px 15px
+}
+
 /**/
