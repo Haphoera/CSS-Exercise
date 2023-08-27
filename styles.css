@@ -1,13 +1,14 @@
 body {
-    border:2px solid;
+    border:2px solid rgb(79, 60, 64);
     margin:30px;
     padding:10px;
-    background: rgb(79, 69, 73);
+    color: rgb(54, 46, 42);
+    background: rgb(181, 157, 141);
 }
 
 hr {
     height: 1px;
-    background-color:rgb(159, 138, 147);
+    background-color:rgb(79, 60, 64);
     border: none;
 }
 
@@ -227,4 +228,53 @@ hr {
 
 /* flex 1*/
 
-/* */
+.blubok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(85, 78, 180);
+    width:300px;
+    height:300px;
+    border: 6px solid blue;
+}
+
+.redbok {
+    background-color: lightcoral;
+    height: 80px;
+    width: 80px;
+    border: 6px solid red;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* flex header */
+
+.list {
+    list-style: none;
+    background-color: white;
+    padding:10px;
+    color: blue;
+}
+
+.heddd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(243, 225, 213);
+    border: 1em solid white;
+}
+
+.insahed {
+    display: flex;
+    gap: 16px;
+}
+
+.logoo {
+    font-size: 20px;
+    padding:10px 30px 10px 30px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+
+/**/
