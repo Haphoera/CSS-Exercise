@@ -262,19 +262,24 @@ hr {
     align-items: center;
     background-color: rgb(243, 225, 213);
     border: 1em solid white;
+    height: 70px;
 }
 
 .insahed {
     display: flex;
     gap: 16px;
+    flex: 1 1 1;
+    padding: 0;
 }
 
 .logoo {
+    display: flex;
     font-size: 20px;
     padding:10px 30px 10px 30px;
     background-color: white;
     color: red;
     font-weight: bold;
+    flex: 1 1 1;
 }
 
 /*flex header 2*/
@@ -284,8 +289,10 @@ hr {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 10px;
-    color: rgb(168, 96, 230);
+    padding: 20px;
+    color:  rgb(104, 31, 168);
+    border-top: 2px solid black;
+    height: 60px;
 }
 
 .hededese {
@@ -297,12 +304,13 @@ hr {
     width: 350px;
     height: 50px;
     align-items: center;
+    font-weight: 400;
 }
 
 
 .sekonlogo {
     font-size: 25px;
-    font-weight: bolder;
+    font-weight: 1000;
     padding: 10px;
 }
 
@@ -311,11 +319,14 @@ hr {
 }
 
 .noti {
-    background-color: rgb(168, 96, 230);
+    background-color: rgb(104, 31, 168);
     color: white;
     border: 0;
     border-radius: 5px;
-    padding:5px 15px 5px 15px
+    padding:5px 15px 5px 15px;
+    margin: 10px;
+    font-weight: bolder;
+    flex: 1 1 1;
 }
 
 /**/
