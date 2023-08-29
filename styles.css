@@ -268,7 +268,6 @@ hr {
 .insahed {
     display: flex;
     gap: 16px;
-    flex: 1 1 1;
     padding: 0;
 }
 
@@ -279,7 +278,6 @@ hr {
     background-color: white;
     color: red;
     font-weight: bold;
-    flex: 1 1 1;
 }
 
 /*flex header 2*/
@@ -314,10 +312,6 @@ hr {
     padding: 10px;
 }
 
-.seklin {
-
-}
-
 .noti {
     background-color: rgb(104, 31, 168);
     color: white;
@@ -327,6 +321,46 @@ hr {
     margin: 10px;
     font-weight: bolder;
     flex: 1 1 1;
+}
+
+/*flex information*/
+
+.plantconta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height:400px;
+    width:1000px;
+    padding:30px;
+    outline: 1px solid black;
+}
+
+.infoo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.imaplan {
+    height:200px;
+    width: 150px;
+    padding: 10px;
+}
+
+.planpics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 52px;
+    align-self: center;
+
+}
+
+.pirsplan {
+    text-align: center;
+    width:150px;
+    padding: 10px;
+    margin:0;
 }
 
 /**/
