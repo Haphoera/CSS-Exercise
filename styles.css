@@ -380,27 +380,21 @@ hr {
     border-radius: 10px;
 }
 
-.topmods {
-    display: flex;
-    margin: 0;
-}
-
 .topmodlep {
     display: flex;
-    justify-self: flex-start;
-}
-
-.topmodrayt {
-    display: flex;
-    justify-self: flex-end;
     align-self: flex-start;
 }
 
+.topmodrayt {
+    
+}
+
 .usure {
+    display: flex;
     font-size: 19px;
     font-weight: bolder;
     margin: 0;
-    padding: 5px;
+    padding: 5px 5px 5px 15px;
     height: 20px;
     width: 280px;
 }
@@ -412,9 +406,20 @@ hr {
     width:35px;
     padding: 5px 5px 10px 5px;
     text-align: center;
-    text-justify: center;
     border-radius: 65px;
     background-color: lightblue;
+}
+
+.xdesayn {
+    background-color: gainsboro;
+    color: gray;
+    font-weight: 1000;
+    font-size: 15px;
+    border: 0;
+    border-radius: 20px;
+    margin: 5px;
+    height: 25px;
+    width: 25px;
 }
 
 
