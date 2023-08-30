@@ -363,4 +363,59 @@ hr {
     margin:0;
 }
 
+/*flex modal*/
+
+.formoda {
+    display: flex;
+    justify-content: center;
+}
+
+.modaaldesayn {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    padding: 15px 15px 5px 15px;
+    border-radius: 10px;
+}
+
+.topmods {
+    display: flex;
+    margin: 0;
+}
+
+.topmodlep {
+    display: flex;
+    justify-self: flex-start;
+}
+
+.topmodrayt {
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-start;
+}
+
+.usure {
+    font-size: 19px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 5px;
+    height: 20px;
+    width: 280px;
+}
+
+.exclaim {
+    font-size: 30px;
+    color:blue;
+    height: 30px;
+    width:35px;
+    padding: 5px 5px 10px 5px;
+    text-align: center;
+    text-justify: center;
+    border-radius: 65px;
+    background-color: lightblue;
+}
+
+
 /**/
